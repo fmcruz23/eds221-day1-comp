@@ -51,6 +51,7 @@ chlorophyll_plot <- ggplot(data = toolik_chlorophyll, aes(x = active_chl_a_ug_l,
   theme_dark() +
   scale_y_reverse()
 
+
 chlorophyll_plot
 ```
 
@@ -58,5 +59,6 @@ chlorophyll_plot
 # Export plot 
 
 ggsave(here::here("figs", "chlorophyll_graph.jpg"), plot = chlorophyll_plot)
+
 ```
 
